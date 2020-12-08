@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 	<title> Reservations at pactific Trails :: Reservation</title>
+    <meta charser="utf-8">
+    <link rel="stylesheet" href="pacific.css">
+</head>
+<body>
+	<header>
+		<h1>Pacific Trails Resort</h1>
+	</header>
+<nav>
+	    <a href="index.html"> Home</a>
+		<a href="menu.html"> menu</a>
+		<a href="direction.html">Direction</a>
+		<a href="contact.html">Contact</a>
+		<a href="shop.html">Shop</a>
+	
+</nav>
+<main>
+	<h2> Reservations at pacific Trails</h2>
+	<h3>Contact Us</h3>
+	<p> Required information is marked with an asterisk(*).</p>
+	<form method="post" onsubmit="return validateForm();" action="https://webdevbasics.net/scripts/pacific.php">
+		<label for="firstname">*First Name:</label><input type="text" id="firstname" name="firstname" required="requested"><br><br>
+		<label for="lastname">*last Name:</label><input type="text" id="lastname" name="lastname" required="requested"><br><br>
+		<label for="email">*Email:</label><input type="email" id="emil" name="email"><br><br>
+		<label for="phone">*Phone:</label><input type="tel" id="phone" name="phone" required="requested"><br><br>
+		<label for="myDate">*Arrival Date:</label><input type="date" id="mydate" name="mydate" required="requested"><br><br>
+		<label for="myNights">*Nights:</label><input type="number" min="1" max="10" id="myNights" name="myNights" required="requested"><br><br>
+		<label for="Comments">Comments:</label><input type="textarea" id="comments" name="comments"><br><br>
+		<input type="submit" value="submit" id="mysubmit">
+</form>
+<main>
+<footer>
+	<a href="mailto:annesjebasingh@gmail.com" target="_blank">Email me</a>&bull;
+	<br>
+	<small>&copy;2020 Pacfic resort.</small>
+</footer>
+</main>
+<script>
+function validateForm() {
+if (document.forms[0].email.value == "" ) {
+alert("Please enter an e-mail address.");
+return false;
+} // end if
+return true;
+} // end function validateForm
+</script>
+</body>
+</html>
+		
+		
+		
+		
+		
+		
+		

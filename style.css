@@ -1,0 +1,138 @@
+body{
+  background-color: #dddddd;
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+}
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@600&display=swap');
+h1{
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+h2{
+  font-family: 'Xanh Mono', monospace;
+}
+div.ex1 {
+  width: 1200px;
+  margin: auto;
+  border: 5px solid #000000;
+}
+.header-image{
+  max-width:100%;
+margin-right:auto;
+margin-bottom:auto;
+  display:block;
+  height:auto;
+}
+
+
+/* The wrapper wraps around everything except for the body. */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  border: 1px 
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.topnav a {
+  float: right;
+  background-color: #C2C2C2;
+  text-align: right;
+  padding: 8px 20px;
+  border-radius:50px;
+}
+
+.topnav a:hover {
+  background-color: white;
+}
+
+.topnav a.active {
+  background-color: #C2C2C2;
+  color: #000000;
+}
+
+.topnav-right {
+  float: right;
+}
+.bottom {
+  overflow: hidden;
+  background-color: #EE68A7;
+}
+.bottom i{
+  float: center;
+  color: #f2f2f2;
+  padding: 10px 20px;
+}
+.bottom a{
+  float: center;
+  color: #f2f2f2;
+  padding: 180px 80px;
+}
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 38%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("istockphoto-1174903057-612x612.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: left;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+
+
+
